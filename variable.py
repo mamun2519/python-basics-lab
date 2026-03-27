@@ -18,3 +18,5 @@ print("x:", x)
 
 # assign the same value to multiple variables
 a = b = c =50
+print("a:", a)
+print("b:", b)

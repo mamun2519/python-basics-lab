@@ -12,6 +12,9 @@ print("Height:", height)
 print("Is Married:", isMarried)
 
 
-# assing multiple variable on the online
+# assign multiple variable on the same line
 x, y, z = 10, 20, 30
 print("x:", x)
+
+# assign the same value to multiple variables
+a = b = c =50

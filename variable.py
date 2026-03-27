@@ -10,3 +10,8 @@ print("Name:", name)
 print("Age:", age)
 print("Height:", height)
 print("Is Married:", isMarried)
+
+
+# assing multiple variable on the online
+x, y, z = 10, 20, 30
+print("x:", x)

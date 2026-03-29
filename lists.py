@@ -37,5 +37,5 @@ squaredList = [x**2 for x in myList]
 print(squaredList)  # Output: [100, 4, 9, 16, 25, 36]
 
 # sort the list
-myList.sort()     
+myList.sort( )     
 print(myList)  # Output: [2, 3, 4, 5, 6, 10]

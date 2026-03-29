@@ -9,3 +9,5 @@ print(len(myTuple))  # Output: 6
 # loop the tuple
 for i in myTuple:
     print(i)
+for i in range(len(myTuple)):
+    print(myTuple[i])

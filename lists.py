@@ -10,3 +10,7 @@ print(myList[:3])  # Output: 6
 # change the value
 myList[0] = 10
 print(myList)  # Output: [10, 2, 3, 4
+
+# add the value
+myList.append(7) # add last
+print(myList)  # Output: [10, 2, 3, 4, 5, 6, 7]

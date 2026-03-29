@@ -23,3 +23,19 @@ myList.remove(20) # remove the value
 print(myList)  # Output: [10, 2, 3, 4, 5, 6, 7]
 myList.pop(0) # remove the last value
 print(myList)  # Output: [10, 2, 3, 4`, 5, 6]
+
+# loop the list
+
+for i in myList:
+    print(i)
+
+for i in range(len(myList)):
+    print(myList[i])
+
+# list comprehension
+squaredList = [x**2 for x in myList]
+print(squaredList)  # Output: [100, 4, 9, 16, 25, 36]
+
+# sort the list
+myList.sort()     
+print(myList)  # Output: [2, 3, 4, 5, 6, 10]

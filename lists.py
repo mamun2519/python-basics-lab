@@ -14,3 +14,12 @@ print(myList)  # Output: [10, 2, 3, 4
 # add the value
 myList.append(7) # add last
 print(myList)  # Output: [10, 2, 3, 4, 5, 6, 7]
+myList.insert(5, 20) # add first
+print(myList)  # Output: [10, 2, 3, 4, 5, 20, 6, 7]
+
+
+# remove the value
+myList.remove(20) # remove the value
+print(myList)  # Output: [10, 2, 3, 4, 5, 6, 7]
+myList.pop(0) # remove the last value
+print(myList)  # Output: [10, 2, 3, 4`, 5, 6]

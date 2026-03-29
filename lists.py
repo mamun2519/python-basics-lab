@@ -39,3 +39,7 @@ print(squaredList)  # Output: [100, 4, 9, 16, 25, 36]
 # sort the list
 myList.sort( )     
 print(myList)  # Output: [2, 3, 4, 5, 6, 10]
+
+# count
+print(myList.count(4))  # Output: 1
+print(myList.index(4))  # Output: 2

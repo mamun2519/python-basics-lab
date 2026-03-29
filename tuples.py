@@ -11,3 +11,9 @@ for i in myTuple:
     print(i)
 for i in range(len(myTuple)):
     print(myTuple[i])
+
+# tuple comprehension
+squaredTuple = tuple(x**2 for x in myTuple)
+
+# count
+print(myTuple.count(4))  # Output: 1

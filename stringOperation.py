@@ -21,3 +21,22 @@ print(full_name) # Output: Mohammad Mamun
 text = "Hello world, welcome to the world of programming"
 count = text.count("w")
 print("Count of 'world':", count) # Output: Count of 'world':
+
+# find string
+index = text.find("welcome")
+print("Index of 'welcome':", index) # Output: Index of 'welcome':
+
+print(text.index("e"))
+
+
+# indexing string
+print(programming[0]) # Output: H
+print(programming[6]) # Output: w
+
+# lenth of string
+length = len(programming)
+print("Length of programming string:", length) # Output: Length of programming string:
+
+# split string
+words = programming.split()
+print("Words in programming string:", words) # Output: Words in programming string: ['Hello
